@@ -8,7 +8,7 @@ app = Flask(__name__)
 app.secret_key = 'your_secret_key_here'
 
 # Gemini API Configuration
-API_KEY = "AIzaSyCW8RPqqP4utfo0r4T5kKmBY810QrsY_bk"
+API_KEY = "Enter your API-KEY"
 genai.configure(api_key=API_KEY)
 MODEL_NAME = "models/gemini-1.5-flash"
 
